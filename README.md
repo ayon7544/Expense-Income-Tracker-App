@@ -1,97 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Expense & Income Tracker App
 
-# Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React Native](https://img.shields.io/badge/React_Native-0.81-blue)](https://reactnative.dev/)
+[![Status](https://img.shields.io/badge/Status-UI_Complete-brightgreen)]()
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+---
 
-## Step 1: Start Metro
+## Description
+**Expense & Income Tracker App** is a React Native mobile application developed based on a Figma design by Sparktech Agency.  
+The app provides an intuitive UI to track expenses and income.  
+Buttons and navigation elements work, but no backend or data persistence is implemented.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+**Figma Design:** [View Figma](https://www.figma.com/design/XQ4Xd5KXuYG7m1kh2Pzabr/Home-Savings---Budgeting-App?node-id=2-3&p=f&t=UzV8ibUta3gNJzDe-0)
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+---
 
-```sh
-# Using npm
-npm start
+## Features
+- Clean and responsive UI matching the Figma design  
+- Navigation between Home, Income, Expense, and Summary screens  
+- Interactive buttons for easy navigation  
+- Lightweight and extendable architecture  
 
-# OR using Yarn
-yarn start
-```
+---
 
-## Step 2: Build and run your app
+## Screenshots
+![Account](assets/screenshots/account.png)  
+![Currency](assets/screenshots/currency.png)  
+![Delete](assets/screenshots/delete.png)  
+![Expenses](assets/screenshots/expenses.png)  
+![Expenses Categories](assets/screenshots/expensescategories.png)  
+![Forgot Password](assets/screenshots/forgot.png)  
+![Home](assets/screenshots/home.png)  
+![Income](assets/screenshots/income.png)  
+![Income Categories](assets/screenshots/incomecategories.png)  
+![Login Screen](assets/screenshots/loginscreen.png)  
+![New Password](assets/screenshots/newpass.png)  
+![Onboarding 1](assets/screenshots/onboarding1.png)  
+![Onboarding 2](assets/screenshots/onboarding2.png)  
+![Rent](assets/screenshots/rent.png)  
+![Rent Categories](assets/screenshots/rentcategories.png)  
+![Review](assets/screenshots/review.png)  
+![Signup](assets/screenshots/signup.png)  
+![Terms](assets/screenshots/terms.png)  
+![Verification](assets/screenshots/verification.png)  
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## Folder Structure
+```text
+├── android/        # Android native project files
+├── ios/            # iOS native project files
+├── src/            # Source code
+│   ├── components/ # Reusable components
+│   ├── screens/    # App screens (Home, Income, Expense, Summary)
+│   ├── assets/     # Images, icons, fonts
+│   └── navigation/ # React Navigation setup
+├── App.js          # Entry point
+├── package.json
+└── README.md
 
-```sh
-# Using npm
-npm run android
 
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
